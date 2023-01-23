@@ -11,6 +11,8 @@ def hello(request):
         <h1>Hello Django !</h1>
         <p>Mes groupes préférés sont :<p>
         <ul>
+                
+                <li>{bands}</li>
             <li>{bands[0].name}</li>
             <li>{bands[1].name}</li>
             <li>{bands[2].name}</li>
